@@ -173,3 +173,5 @@ class RuleEngine(ast.NodeVisitor):
                 "category": "style",
                 "message": f"Imported module/name '{imp}' is never used"
             })
+
+# Core AST rules validation logic notes
