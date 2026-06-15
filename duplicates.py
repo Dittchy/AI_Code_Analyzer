@@ -58,3 +58,5 @@ def find_duplicates(code, min_lines=2):
                 break
 
     return duplicates
+
+# Duplicate detection patterns check helper annotations
