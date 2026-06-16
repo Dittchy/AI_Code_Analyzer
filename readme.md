@@ -92,3 +92,5 @@ AI-CODE-ANALYZER/
 ├── requirements.txt  # Project libraries list
 └── readme.md         # Project guide
 ```
+
+<!-- Extra readme instructions and guidelines -->
