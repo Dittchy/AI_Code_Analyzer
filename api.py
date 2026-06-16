@@ -60,3 +60,5 @@ async def analyze_text(data: CodeInput):
         
     analyzer = CodeAnalyzer(data.code)
     return analyzer.analyze()
+
+# Extra api endpoints routing configs
