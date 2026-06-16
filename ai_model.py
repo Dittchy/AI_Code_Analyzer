@@ -141,3 +141,5 @@ class AICodeAnalyzer:
             "bug_details": bug_details,
             "suggested_fix": suggested_fix
         }
+
+# Extra AI fallback support functions
