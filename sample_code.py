@@ -11,3 +11,5 @@ def bad(x):
     j = 10
     k = 11
     return x
+
+# Extra sample test cases for rules
