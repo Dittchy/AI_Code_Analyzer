@@ -2,6 +2,8 @@
 
 A state-of-the-art web-based developer tool designed to perform rapid static code analysis, function complexity mapping, duplication detection, and AI-powered refactoring.
 
+🚀 **Live Deployment (Frontend)**: [https://ai-code-analyzer-5xcq.vercel.app/](https://ai-code-analyzer-5xcq.vercel.app/)
+
 Built using a hybrid framework, the app leverages **Python AST Parsing**, **Radon**, **Pylint** rules, and **Google Gemini API** (with a local fallback engine) to score your code quality and pinpoint bugs, styling errors, or security risks.
 
 ---
@@ -71,6 +73,16 @@ Built using a hybrid framework, the app leverages **Python AST Parsing**, **Rado
     ```bash
     python main.py sample_code.py
     ```
+
+---
+
+## Deployment
+
+This project is configured for split-architecture cloud deployment:
+*   **Frontend**: Hosted on **Vercel** at [https://ai-code-analyzer-5xcq.vercel.app/](https://ai-code-analyzer-5xcq.vercel.app/) (utilizing the static deployment instructions in `vercel.json`).
+*   **Backend API**: Hosted on **Render** (utilizing the `render.yaml` service blueprint).
+
+*Note: Once deployed, open the Vercel app, click on the API connection status badge in the header, and paste your Render backend web service URL to link the two.*
 
 ---
 
